@@ -1,0 +1,31 @@
+{era: ["age", "era"]}
+
+
+ era stata avvistata l’ultima volta in Austria sette giorni fa
+
+
+ era stata avvistata l’ultima volta in Austria sette giorni fa -> google translate
+ -> "it was last seen in Austria seven days ago"
+
+ if ["age", "era"] in gtranslate output:
+     regular sub
+
+
+
+
+app init
+1. gather settings -> list of words to learn
+2. translate list of words
+
+{
+    {era: ["age", "era"]}
+}
+
+ era stata avvistata l’ultima volta in Austria sette giorni fa -> google translate
+ -> "it was last seen in Austria seven days ago"
+
+if ["age", "era"] in gtranslate output:
+     regular sub
+else
+    ignore
+
